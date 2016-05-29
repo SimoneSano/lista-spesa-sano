@@ -5,10 +5,10 @@ public class Entry implements Comparable<Entry>{
 	private int moltiplicatore;
 	private boolean checked;
 	
-	public Entry(String desc, int mul, boolean check){
+	public Entry(String desc, int mul, boolean checked){
 		this.descrizione = desc;
 		this.moltiplicatore = mul;
-		this.checked = check;
+		this.checked = checked;
 	}
 	
 	public String getDescrizione(){
