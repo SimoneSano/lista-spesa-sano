@@ -4,7 +4,8 @@ public class Entry implements Comparable<Entry>{
 	private String descrizione;
 	private int moltiplicatore;
 	private boolean checked;
-	
+	private static final String prova = "prova";
+
 	public Entry(String desc, int mul, boolean check){
 		this.descrizione = desc;
 		this.moltiplicatore = mul;
